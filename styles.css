@@ -120,7 +120,7 @@ img {
     text-align: center;
 }
 
-/*    NAVIGATION */
+/*  NAVIGATION */
 .navbar {
     position: fixed;
     top: var(--spacing-md);
@@ -540,10 +540,10 @@ img {
 .cta-text {
   display: inline-block;
   overflow: hidden;           
-  white-space: nowrap;      
-  border-right: 3px solid #000;
+  white-space: nowrap;        
+  border-right: 3px solid #000; 
   animation: typing 5s steps(100, end), blink 0.75s step-end infinite;
-  font-size: 1.2rem;
+  font-size: 1.2rem;        
 }
 
 @keyframes typing {
