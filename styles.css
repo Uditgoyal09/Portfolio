@@ -120,9 +120,9 @@ img {
     text-align: center;
 }
 
-/* ============================================
-   NAVIGATION - Using Flexbox & Position Fixed
-   ============================================ */
+
+   /*NAVIGATION */
+
 .navbar {
     position: fixed;
     top: var(--spacing-md);
@@ -430,7 +430,7 @@ img {
 /* footer */
 .footer {
     padding: var(--spacing-xl) 0;
-    background-color: #0f111a; /* Dark background like screenshot */
+    background-color: #0f111a; 
     color: var(--text-secondary);
     border-top: 1px solid var(--border-color);
     margin-top: var(--spacing-2xl);
@@ -494,7 +494,7 @@ img {
 }
 
 .social-link.twitter:hover i {
-    color: #00acee; /* Twitter blue */
+    color: #00acee; 
     transform: scale(1.3);
 }
 
@@ -541,11 +541,11 @@ img {
 
 .cta-text {
   display: inline-block;
-  overflow: hidden;           /* Ensures text hides outside the container */
-  white-space: nowrap;        /* Keeps text in a single line */
-  border-right: 3px solid #000; /* Cursor effect */
+  overflow: hidden;           
+  white-space: nowrap;        
+  border-right: 3px solid #000; 
   animation: typing 5s steps(100, end), blink 0.75s step-end infinite;
-  font-size: 1.2rem;          /* Adjust size as needed */
+  font-size: 1.2rem;        
 }
 
 @keyframes typing {
