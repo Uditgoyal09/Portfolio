@@ -706,6 +706,11 @@ img {
     color: var(--text-secondary);
 }
 
+.project-details{
+    font-size: small;
+    margin: 4px;
+
+}
 
 /* about section */
 .about-section {
