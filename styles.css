@@ -118,6 +118,7 @@ img {
 
 .text-center {
     text-align: center;
+    margin-top: 50px;
 }
 
 /*  NAVIGATION */
@@ -347,6 +348,7 @@ img {
 .btn-primary:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+    background-color: rgb(87, 130, 209);
 }
 
 .btn-secondary {
@@ -643,6 +645,17 @@ img {
     height: 200px;
     object-fit: cover;
     transition: transform var(--transition-slow);
+}
+.project-media {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+    display: block;
+}
+
+.project-card:hover .project-media {
+    transform: scale(1.05);
 }
 
 .project-card:hover .project-image {
@@ -964,4 +977,31 @@ img {
     width: 100%;
     padding: var(--spacing-sm) var(--spacing-lg);
     margin-top: var(--spacing-sm);
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xl);
+}
+
+.filter-btn {
+    padding: var(--spacing-xs) var(--spacing-md);
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-full);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    color: var(--bg-primary);
+    background-color: var(--text-primary);
+    border-color: var(--text-primary);
 }

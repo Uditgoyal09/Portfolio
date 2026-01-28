@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
+
 <body>
-      <header>
+    <header>
         <nav class="navbar">
             <div class="nav-pill">
                 <a href="index.html" class="nav-logo">
@@ -18,9 +19,9 @@
                     <span>Portfolio</span>
                 </a>
                 <ul class="nav-links">
-                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
                     <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="projects.html" class="nav-link active">Projects</a></li>
                     <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
                 <a href="contact.html" class="nav-cta">
@@ -30,8 +31,116 @@
             </div>
         </nav>
     </header>
+    <section class="projects-section about-section">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 3rem;">
+                <div class="hero-badge" style="display: inline-flex;">
+                    <span class="badge-dot"></span>
+                    <span>My Work</span>
+                </div>
+                <h1 class="section-title" style="margin-top: 1.5rem; margin-bottom: 1rem;">
+                    Featured <span class="hero-title-light">Projects</span>
+                </h1>
+                <p class="section-subtitle" style="max-width: 600px; margin: 0 auto;">
+                    A collection of my best work in web design, branding, and product design.
+                    Each project represents a unique challenge and creative solution.
+                </p>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Web Design</button>
+                <button class="filter-btn">Branding</button>
+                <button class="filter-btn">App Design</button>
+                <button class="filter-btn">UI/UX</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <video class="project-media" autoplay muted loop playsinline>
+                        <source src="Images/project1.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-info">
+                        <h3 class="project-title">Helping Hand – NGO Website</h3><br>
+                        <p class="project-description">
+                            Built a static, responsive donation website with WCAG-compliant UI/UX and an optimized
+                            mobile-first flow to enhance donor experience and reduce drop-offs.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Web Design</span>
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Development</span>
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Footer -->
+                <div class="project-card">
+                    <img src="Images/project-2.jpg" alt="Mobile App Design" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Mobile App Design</h3><br>
+                        <p class="project-description">Sleek mobile application interface for a fintech startup</p><br>
+                        <div class="project-tags">
+                            <span class="project-tag">App Design</span>
+                            <span class="project-tag">Product</span>
+                            <span class="project-tag">iOS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <video class="project-media" autoplay muted loop playsinline>
+                        <source src="Images/project3.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-info">
+                        <h3 class="project-title">Paisa Growth - Fintech Website</h3><br>
+                        <p class="project-description">
+                            Your trusted digital wealth management platform that transforms how Indians invest and grow
+                            their money with expert guidance and cutting-edge technology.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Web Design</span>
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <video class="project-media" autoplay muted loop playsinline>
+                        <source src="Images/project4.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-info">
+                        <h3 class="project-title">Coseverse Academy </h3><br>
+                        <p class="project-description">
+                            A Powerfull Learning platform deliver training programs, convert insights into profit, and
+                            build lasting learner and
+                            loyality-all under your band.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Web Design</span>
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <video class="project-media" autoplay muted loop playsinline>
+                        <source src="Images/project5.mp4" type="video/mp4">
+                    </video>
+                    <div class="project-info">
+                        <h3 class="project-title">FinanceAI</h3><br>
+                        <p class="project-description">
+                            Professional AI-powered financial analytics platform designed to democratize access to
+                            sophisticated financial forecasting and analysis tools.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Web Design</span>
+                            <span class="project-tag">UI/UX</span>
+                            <span class="project-tag">Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -61,5 +170,6 @@
             </div>
         </div>
     </footer>
-    </body>
+</body>
+
 </html>
